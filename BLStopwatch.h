@@ -9,7 +9,7 @@
  * or https://juejin.im/user/5941fa488d6d810058c0d4df to contact us.
  */
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, BLStopwatchSplitType) {
     BLStopwatchSplitTypeMedian = 0, // 记录中间值.
