@@ -10,6 +10,6 @@ For more detail,please check these articles：
 
 [简书专栏：贝聊科技](http://www.jianshu.com/u/329bcde8c3ea)
 
-[知乎专栏：贝聊科技]](https://zhuanlan.zhihu.com/ibeiliao)
+[知乎专栏：贝聊科技](https://zhuanlan.zhihu.com/ibeiliao)
 
-[掘金专栏：贝聊科技]](https://juejin.im/user/5941fa488d6d810058c0d4df)
+[掘金专栏：贝聊科技](https://juejin.im/user/5941fa488d6d810058c0d4df)
