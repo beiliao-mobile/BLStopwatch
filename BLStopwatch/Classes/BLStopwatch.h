@@ -16,6 +16,12 @@ typedef NS_ENUM(NSInteger, BLStopwatchSplitType) {
     BLStopwatchSplitTypeContinuous // 记录连续值.
 };
 
+typedef NS_ENUM(NSInteger, BLStopwatchState) {
+    BLStopwatchStateInitial = 0,
+    BLStopwatchStateRuning,
+    BLStopwatchStateStop,
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BLStopwatch : NSObject
@@ -25,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) NSArray<NSDictionary<NSString *, NSNumber *> *> *splits;
 @property (nonatomic, readonly) NSString *prettyPrintedSplits;
 @property (nonatomic, readonly) NSTimeInterval elapseTimeInterval;
+@property (nonatomic, readonly) BLStopwatchState watchState;
 
 - (void)start;
 
