@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0872C2067F68311AACC471872F75B6EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		3764681E3C194FFB282444B541A76EEC /* Pods-BLStopwatch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4D8E8607EF0C71ADFAC3CB7B8D2756 /* Pods-BLStopwatch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		434332857A60BDD6C82BA2120650857E /* Pods-BLStopwatch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A17659683B3D5850A0962E1063A23B44 /* Pods-BLStopwatch_Tests-dummy.m */; };
+		4A2F4E2889029F489EDA1C49E5EBB60D /* BLStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB108CED1BE9EDE13FBFCE7DC948801 /* BLStopwatch.m */; };
+		4B5827E2A223A3B067808E777A47C750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		82B40A25F934C775D514B43C5E9F6FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		900B6347331B5F43C19535E8CABFAFA3 /* BLStopwatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 273CB50074AD461A03DD7FDBF153FBF3 /* BLStopwatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA17333E685528CA11B9861668662E6D /* Pods-BLStopwatch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D274A409287D1E4B504F255282A44A /* Pods-BLStopwatch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB54D9752CE4AD914F473BA5E5AE7B46 /* BLStopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A94A4CA1C06ABF158FD7A8F51ACA519 /* BLStopwatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA408AB75B5AC313C4A2853D26680E71 /* Pods-BLStopwatch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C554524CF2AE468941D51342A466230 /* Pods-BLStopwatch_Example-dummy.m */; };
+		FA3B117C657B061BBEDB95BCB1261334 /* BLStopwatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF83517DC3AD5087921D94191456FFB /* BLStopwatch-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3A5903D9D4868F9A5CBC5E4D231D5D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F1CEE970CD775C236260E11C94CE2E;
+			remoteInfo = BLStopwatch;
+		};
+		F1A346A159CEBF4E9181856536D081FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320740C2B260DDCCCDB49166C4E4C7A8;
+			remoteInfo = "Pods-BLStopwatch_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FB1ACF010CDDF38D819ACE144AC803 /* BLStopwatch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLStopwatch.xcconfig; sourceTree = "<group>"; };
+		0B42AEF79C2D003FDD7601D52B1ED77D /* Pods-BLStopwatch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLStopwatch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E3DDF431F455126E0D3435980F3D97C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0FD13142327BA0DA5FFA7CA16B3F5034 /* Pods-BLStopwatch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLStopwatch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		109F945092ADCAC2716A652B3DCCA077 /* Pods-BLStopwatch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLStopwatch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		273CB50074AD461A03DD7FDBF153FBF3 /* BLStopwatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLStopwatch-umbrella.h"; sourceTree = "<group>"; };
+		2DB108CED1BE9EDE13FBFCE7DC948801 /* BLStopwatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLStopwatch.m; path = BLStopwatch/Classes/BLStopwatch.m; sourceTree = "<group>"; };
+		2DD8506988736C43F3BE787786E3630C /* BLStopwatch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLStopwatch-prefix.pch"; sourceTree = "<group>"; };
+		34531AB903FADEDF57D53FBB43E8A8E0 /* BLStopwatch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BLStopwatch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EC3156AC495761E807C21227F369219 /* Pods-BLStopwatch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BLStopwatch_Tests.modulemap"; sourceTree = "<group>"; };
+		440D30E5179546B85A4338BD9E0E55B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C554524CF2AE468941D51342A466230 /* Pods-BLStopwatch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLStopwatch_Example-dummy.m"; sourceTree = "<group>"; };
+		5366F7737806FE0063F6D2D82CDEB851 /* Pods-BLStopwatch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLStopwatch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		577EDD116DA7696A12757178AF64B701 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFCE184A191F5145812131ED2913751 /* Pods-BLStopwatch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLStopwatch_Tests-resources.sh"; sourceTree = "<group>"; };
+		5D8E52ECADDE1C67923C76CBBF495D83 /* Pods-BLStopwatch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLStopwatch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		645AFE499DD176D5B3E9245324EA9492 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A94A4CA1C06ABF158FD7A8F51ACA519 /* BLStopwatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLStopwatch.h; path = BLStopwatch/Classes/BLStopwatch.h; sourceTree = "<group>"; };
+		8F9D25B158C11C203EF9CDD3ED3DC53F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9132452D6A482C30B21C47534E550D76 /* Pods-BLStopwatch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLStopwatch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A4D8E8607EF0C71ADFAC3CB7B8D2756 /* Pods-BLStopwatch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLStopwatch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A0DDCF5AF358F0B037A4DCB744C5C10B /* BLStopwatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLStopwatch.modulemap; sourceTree = "<group>"; };
+		A17659683B3D5850A0962E1063A23B44 /* Pods-BLStopwatch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLStopwatch_Tests-dummy.m"; sourceTree = "<group>"; };
+		B4B00F210BCAFA98D28041A9C5C79852 /* Pods-BLStopwatch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLStopwatch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B72F8FD71EF507EF7C6C20CBC993D080 /* Pods-BLStopwatch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLStopwatch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0A419F9B2322B07E4EC78E4625FD34D /* Pods_BLStopwatch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLStopwatch_Example.framework; path = "Pods-BLStopwatch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF83517DC3AD5087921D94191456FFB /* BLStopwatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLStopwatch-dummy.m"; sourceTree = "<group>"; };
+		D65CC7117429562ABF3A22A61E12478F /* Pods-BLStopwatch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLStopwatch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8B38D2CF127FA00484D02EA7C541958 /* Pods_BLStopwatch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLStopwatch_Tests.framework; path = "Pods-BLStopwatch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AC96F369090B1AF66D1D00D771B82C /* Pods-BLStopwatch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BLStopwatch_Example.modulemap"; sourceTree = "<group>"; };
+		E36B4A75E7316EDCD5B38E488059060D /* Pods-BLStopwatch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLStopwatch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E3D274A409287D1E4B504F255282A44A /* Pods-BLStopwatch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLStopwatch_Example-umbrella.h"; sourceTree = "<group>"; };
+		E40FD982506C899C0B0E580667331247 /* Pods-BLStopwatch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLStopwatch_Example-resources.sh"; sourceTree = "<group>"; };
+		F9EAED680A0B64E6A69B6364FE3D44EF /* BLStopwatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLStopwatch.framework; path = BLStopwatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113A5E4572426257C45B618DFB06AA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5827E2A223A3B067808E777A47C750 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905BA65CC5BD11CB88A142334AD93104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0872C2067F68311AACC471872F75B6EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993A2BFC3D60BBF9EE71DEE16C059FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B40A25F934C775D514B43C5E9F6FEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D9BB400FE948CBD37A4B85F5085497 /* Pods-BLStopwatch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				577EDD116DA7696A12757178AF64B701 /* Info.plist */,
+				3EC3156AC495761E807C21227F369219 /* Pods-BLStopwatch_Tests.modulemap */,
+				B4B00F210BCAFA98D28041A9C5C79852 /* Pods-BLStopwatch_Tests-acknowledgements.markdown */,
+				B72F8FD71EF507EF7C6C20CBC993D080 /* Pods-BLStopwatch_Tests-acknowledgements.plist */,
+				A17659683B3D5850A0962E1063A23B44 /* Pods-BLStopwatch_Tests-dummy.m */,
+				0FD13142327BA0DA5FFA7CA16B3F5034 /* Pods-BLStopwatch_Tests-frameworks.sh */,
+				5AFCE184A191F5145812131ED2913751 /* Pods-BLStopwatch_Tests-resources.sh */,
+				9A4D8E8607EF0C71ADFAC3CB7B8D2756 /* Pods-BLStopwatch_Tests-umbrella.h */,
+				D65CC7117429562ABF3A22A61E12478F /* Pods-BLStopwatch_Tests.debug.xcconfig */,
+				5366F7737806FE0063F6D2D82CDEB851 /* Pods-BLStopwatch_Tests.release.xcconfig */,
+			);
+			name = "Pods-BLStopwatch_Tests";
+			path = "Target Support Files/Pods-BLStopwatch_Tests";
+			sourceTree = "<group>";
+		};
+		31A2429490B51D0C328A13F40F769B17 /* Pods-BLStopwatch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8F9D25B158C11C203EF9CDD3ED3DC53F /* Info.plist */,
+				E1AC96F369090B1AF66D1D00D771B82C /* Pods-BLStopwatch_Example.modulemap */,
+				9132452D6A482C30B21C47534E550D76 /* Pods-BLStopwatch_Example-acknowledgements.markdown */,
+				0B42AEF79C2D003FDD7601D52B1ED77D /* Pods-BLStopwatch_Example-acknowledgements.plist */,
+				4C554524CF2AE468941D51342A466230 /* Pods-BLStopwatch_Example-dummy.m */,
+				5D8E52ECADDE1C67923C76CBBF495D83 /* Pods-BLStopwatch_Example-frameworks.sh */,
+				E40FD982506C899C0B0E580667331247 /* Pods-BLStopwatch_Example-resources.sh */,
+				E3D274A409287D1E4B504F255282A44A /* Pods-BLStopwatch_Example-umbrella.h */,
+				109F945092ADCAC2716A652B3DCCA077 /* Pods-BLStopwatch_Example.debug.xcconfig */,
+				E36B4A75E7316EDCD5B38E488059060D /* Pods-BLStopwatch_Example.release.xcconfig */,
+			);
+			name = "Pods-BLStopwatch_Example";
+			path = "Target Support Files/Pods-BLStopwatch_Example";
+			sourceTree = "<group>";
+		};
+		3854CDCC8823B48CCAF43C3AD611EA10 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31A2429490B51D0C328A13F40F769B17 /* Pods-BLStopwatch_Example */,
+				12D9BB400FE948CBD37A4B85F5085497 /* Pods-BLStopwatch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8402392F11A924548F73EFD18EE15B11 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ABE12A7184AA0AA24DB8860163019F0F /* Products */,
+				3854CDCC8823B48CCAF43C3AD611EA10 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8402392F11A924548F73EFD18EE15B11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99496B1A935D607F651CD879748EE027 /* BLStopwatch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		99496B1A935D607F651CD879748EE027 /* BLStopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				8A94A4CA1C06ABF158FD7A8F51ACA519 /* BLStopwatch.h */,
+				2DB108CED1BE9EDE13FBFCE7DC948801 /* BLStopwatch.m */,
+				E7A9282D4087D63F31163847B6117315 /* Pod */,
+				BCF3C6EDCF1B259AF83CCA5D52A7486D /* Support Files */,
+			);
+			name = BLStopwatch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ABE12A7184AA0AA24DB8860163019F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EAED680A0B64E6A69B6364FE3D44EF /* BLStopwatch.framework */,
+				C0A419F9B2322B07E4EC78E4625FD34D /* Pods_BLStopwatch_Example.framework */,
+				D8B38D2CF127FA00484D02EA7C541958 /* Pods_BLStopwatch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF3C6EDCF1B259AF83CCA5D52A7486D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDCF5AF358F0B037A4DCB744C5C10B /* BLStopwatch.modulemap */,
+				03FB1ACF010CDDF38D819ACE144AC803 /* BLStopwatch.xcconfig */,
+				CFF83517DC3AD5087921D94191456FFB /* BLStopwatch-dummy.m */,
+				2DD8506988736C43F3BE787786E3630C /* BLStopwatch-prefix.pch */,
+				273CB50074AD461A03DD7FDBF153FBF3 /* BLStopwatch-umbrella.h */,
+				645AFE499DD176D5B3E9245324EA9492 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLStopwatch";
+			sourceTree = "<group>";
+		};
+		E7A9282D4087D63F31163847B6117315 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				34531AB903FADEDF57D53FBB43E8A8E0 /* BLStopwatch.podspec */,
+				440D30E5179546B85A4338BD9E0E55B9 /* LICENSE */,
+				0E3DDF431F455126E0D3435980F3D97C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C2B8C882022DB05E017A3266C091740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3764681E3C194FFB282444B541A76EEC /* Pods-BLStopwatch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7704046D17ECEF233B5CF24E753A1DC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA17333E685528CA11B9861668662E6D /* Pods-BLStopwatch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A236E849B95D8BBB9A9FF63E19EE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900B6347331B5F43C19535E8CABFAFA3 /* BLStopwatch-umbrella.h in Headers */,
+				DB54D9752CE4AD914F473BA5E5AE7B46 /* BLStopwatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		320740C2B260DDCCCDB49166C4E4C7A8 /* Pods-BLStopwatch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1B4AA4A54F6B87C0BCA04D34CB4C5B /* Build configuration list for PBXNativeTarget "Pods-BLStopwatch_Example" */;
+			buildPhases = (
+				7704046D17ECEF233B5CF24E753A1DC2 /* Headers */,
+				AD9CED2D28A3A2812F13E77B72F8EF39 /* Sources */,
+				993A2BFC3D60BBF9EE71DEE16C059FCA /* Frameworks */,
+				E5ADB185E966DDA55E23F653963E9764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD2758089223BD39AB4C7206D004CB98 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLStopwatch_Example";
+			productName = "Pods-BLStopwatch_Example";
+			productReference = C0A419F9B2322B07E4EC78E4625FD34D /* Pods_BLStopwatch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C3A95149DFB7C3CBFE031E4B43B4404 /* Pods-BLStopwatch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAD84A955DE4EFF91C440519716EB3F /* Build configuration list for PBXNativeTarget "Pods-BLStopwatch_Tests" */;
+			buildPhases = (
+				5C2B8C882022DB05E017A3266C091740 /* Headers */,
+				3CDBD3A7BAAA5997574447ED69F1E201 /* Sources */,
+				113A5E4572426257C45B618DFB06AA5A /* Frameworks */,
+				0CEFA00FFDA17D0DD8DA9EFC14FE2BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BC53A169270BF444FA099F539C7C8C /* PBXTargetDependency */,
+			);
+			name = "Pods-BLStopwatch_Tests";
+			productName = "Pods-BLStopwatch_Tests";
+			productReference = D8B38D2CF127FA00484D02EA7C541958 /* Pods_BLStopwatch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1F1CEE970CD775C236260E11C94CE2E /* BLStopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1ABCFDCF909E23162825054E7A55AC /* Build configuration list for PBXNativeTarget "BLStopwatch" */;
+			buildPhases = (
+				797A236E849B95D8BBB9A9FF63E19EE4 /* Headers */,
+				4B7AD34C24E87667A17E2611CB5C670D /* Sources */,
+				905BA65CC5BD11CB88A142334AD93104 /* Frameworks */,
+				CCE9892BB6ECAAFE03217D57CF99A474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLStopwatch;
+			productName = BLStopwatch;
+			productReference = F9EAED680A0B64E6A69B6364FE3D44EF /* BLStopwatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ABE12A7184AA0AA24DB8860163019F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F1CEE970CD775C236260E11C94CE2E /* BLStopwatch */,
+				320740C2B260DDCCCDB49166C4E4C7A8 /* Pods-BLStopwatch_Example */,
+				9C3A95149DFB7C3CBFE031E4B43B4404 /* Pods-BLStopwatch_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CEFA00FFDA17D0DD8DA9EFC14FE2BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE9892BB6ECAAFE03217D57CF99A474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5ADB185E966DDA55E23F653963E9764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDBD3A7BAAA5997574447ED69F1E201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434332857A60BDD6C82BA2120650857E /* Pods-BLStopwatch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7AD34C24E87667A17E2611CB5C670D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3B117C657B061BBEDB95BCB1261334 /* BLStopwatch-dummy.m in Sources */,
+				4A2F4E2889029F489EDA1C49E5EBB60D /* BLStopwatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9CED2D28A3A2812F13E77B72F8EF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA408AB75B5AC313C4A2853D26680E71 /* Pods-BLStopwatch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57BC53A169270BF444FA099F539C7C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BLStopwatch_Example";
+			target = 320740C2B260DDCCCDB49166C4E4C7A8 /* Pods-BLStopwatch_Example */;
+			targetProxy = F1A346A159CEBF4E9181856536D081FF /* PBXContainerItemProxy */;
+		};
+		FD2758089223BD39AB4C7206D004CB98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLStopwatch;
+			target = C1F1CEE970CD775C236260E11C94CE2E /* BLStopwatch */;
+			targetProxy = D3A5903D9D4868F9A5CBC5E4D231D5D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D460F3B2C295CBA5D83913189732A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FB1ACF010CDDF38D819ACE144AC803 /* BLStopwatch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLStopwatch/BLStopwatch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLStopwatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLStopwatch/BLStopwatch.modulemap";
+				PRODUCT_MODULE_NAME = BLStopwatch;
+				PRODUCT_NAME = BLStopwatch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DAC62F28D2F3C2D6E21ACA331D56B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FB1ACF010CDDF38D819ACE144AC803 /* BLStopwatch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLStopwatch/BLStopwatch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLStopwatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLStopwatch/BLStopwatch.modulemap";
+				PRODUCT_MODULE_NAME = BLStopwatch;
+				PRODUCT_NAME = BLStopwatch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A75D168E202E27DE90D69068091CD3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36B4A75E7316EDCD5B38E488059060D /* Pods-BLStopwatch_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLStopwatch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLStopwatch_Example/Pods-BLStopwatch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82423428EF05CA46C1C51F78A28250C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5366F7737806FE0063F6D2D82CDEB851 /* Pods-BLStopwatch_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLStopwatch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLStopwatch_Tests/Pods-BLStopwatch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		923AEECE31787F2E4D9FFC70F8BA893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109F945092ADCAC2716A652B3DCCA077 /* Pods-BLStopwatch_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLStopwatch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLStopwatch_Example/Pods-BLStopwatch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7BDA760B0F36D560F8F07BE25CA39AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65CC7117429562ABF3A22A61E12478F /* Pods-BLStopwatch_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLStopwatch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLStopwatch_Tests/Pods-BLStopwatch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1ABCFDCF909E23162825054E7A55AC /* Build configuration list for PBXNativeTarget "BLStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D460F3B2C295CBA5D83913189732A14 /* Debug */,
+				5DAC62F28D2F3C2D6E21ACA331D56B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAD84A955DE4EFF91C440519716EB3F /* Build configuration list for PBXNativeTarget "Pods-BLStopwatch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BDA760B0F36D560F8F07BE25CA39AC /* Debug */,
+				82423428EF05CA46C1C51F78A28250C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1B4AA4A54F6B87C0BCA04D34CB4C5B /* Build configuration list for PBXNativeTarget "Pods-BLStopwatch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923AEECE31787F2E4D9FFC70F8BA893C /* Debug */,
+				7A75D168E202E27DE90D69068091CD3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

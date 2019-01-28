@@ -1,0 +1,6 @@
+framework module BLStopwatch {
+  umbrella header "BLStopwatch-umbrella.h"
+
+  export *
+  module * { export * }
+}
