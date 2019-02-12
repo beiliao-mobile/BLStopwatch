@@ -14,12 +14,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSInteger, BLStopwatchState) {
-    BLStopwatchStateInitial = 0,
-    BLStopwatchStateRuning,
-    BLStopwatchStateStop,
-};
-
 @interface BLStopwatch ()
 
 @property (nonatomic) CFTimeInterval startTimeInterval;
@@ -77,13 +71,17 @@ typedef NS_ENUM(NSInteger, BLStopwatchState) {
 
 - (NSTimeInterval)elapseTimeInterval {
     switch (self.state) {
-        case BLStopwatchStateInitial:
+            case BLStopwatchStateInitial:
             return 0;
-        case BLStopwatchStateRuning:
+            case BLStopwatchStateRuning:
             return CACurrentMediaTime() - self.startTimeInterval;
-        case BLStopwatchStateStop:
+            case BLStopwatchStateStop:
             return self.stopTimeInterval - self.startTimeInterval;
     }
+}
+
+- (BLStopwatchState)watchState {
+    return self.state;
 }
 
 - (void)start {

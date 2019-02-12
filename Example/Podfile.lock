@@ -1,0 +1,16 @@
+PODS:
+  - BLStopwatch (0.1.0)
+
+DEPENDENCIES:
+  - BLStopwatch (from `../`)
+
+EXTERNAL SOURCES:
+  BLStopwatch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BLStopwatch: 464eddabce7e5fdbd4ef05e789874e6a1039a02b
+
+PODFILE CHECKSUM: 91a93f396e373afec52e592a98823f91c155fa82
+
+COCOAPODS: 1.5.3
